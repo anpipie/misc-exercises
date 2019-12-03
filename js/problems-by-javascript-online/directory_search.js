@@ -1,6 +1,6 @@
-
-// name search takes a list of names and list of queries as parameters and returns the search result
+// The name search takes a list of names and list of queries as parameters and returns the search result
 // for each query. Possible search results are: not found, starts with, found.
+
 function nameSearch (directory, queries) {
   const searchResults = []
 
@@ -21,6 +21,7 @@ function nameSearch (directory, queries) {
   console.log(searchResults)
   return searchResults
 }
+// example:
 nameSearch([
   'jack',
   'jill',

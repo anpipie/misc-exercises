@@ -2,7 +2,7 @@
 
 My solutions to programmming puzzles. 
 
-I have added a short intro text (comment) in each js-file that briefly explains the puzzle/problem.
+I have added a short intro text (comment) in each js-file that briefly explains the function/puzzle.
 
 The original programmming problems can be found at:
 https://javascript.onl/

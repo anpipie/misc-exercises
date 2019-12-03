@@ -1,7 +1,5 @@
-
-// We have access to the organizational chart of a company. We would like to know how many people are in the organization
-// led by a specific person, or in other words, how many people (including that specific person) directly or indirectly
-// report to him. Every person except for the head of the company reports to exactly one other person.
+// Function counts how many people report to a specific person. Function takes organization chart and id number
+// of the person as parameters. 
 function countReports (chart, query) {
   let reportingPersons = 0
 
@@ -33,6 +31,8 @@ function countReports (chart, query) {
   }
   return reportingPersons
 }
+
+// Examples:
 
 console.log(
   countReports({
