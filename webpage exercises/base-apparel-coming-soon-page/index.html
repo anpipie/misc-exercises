@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600&display=swap" rel="stylesheet"> 
+  <script src="./src/script.js"></script>
+  <title>Frontend Mentor | Base Apparel coming soon page</title>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <img src="images/logo.svg" alt="base apparel logo" id="logo" /> 
+    </header>
+    <picture class="hero-image">
+      <source media='(min-width: 720px)'
+      srcset="images/hero-desktop.jpg"/>
+      <source media='(max-width: 719px)'
+      srcset="images/hero-mobile.jpg"/>
+      <img src="images/hero-mobile.jpg" alt="" />
+    </picture>
+    <div class="main-content">
+      <h1 class="wider-letter-spacing"><span class="accent-color narrow-font">We're</span><br /> coming <br />soon</h1>
+      <p class="accent-color">Hello fellow shoppers! We're currently building our new fashion store. 
+      Add your email below to stay up-to-date with announcements and our launch deals.</p>
+      <form>
+        <input id="user-input" type="email" placeholder="Email Address" name="email" class="transparent-background" />
+        <button id="submit-button" type="submit" class="overlap shadow"><img src="images/icon-arrow.svg" alt="submit"/></button>
+      </form>
+      <div id="error-message" class="error-color">
+      </div>
+    </div>
+    <footer>
+      <p class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="#">Anne</a>.
+      </p>
+    </footer>
+  </div>
+</body>
+</html>
