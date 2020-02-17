@@ -1,4 +1,4 @@
 # Misc coding exercises
 
 * webpage exercises: exercises using plain html & css & JavaScript
-* js folder: exercisises with JavaScript
+* js folder: exercises with JavaScript
